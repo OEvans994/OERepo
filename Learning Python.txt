@@ -1,0 +1,72 @@
+Notes for Python
+
+Q: What is a statement?
+A: In programming we call anything that carries out some action a statement.
+
+Print Statements:
+Two different types of Python. Python 2 and Python 3.
+Python 2 = print ""
+Python 3 = print("")
+
+Strings:
+Text in Python is considered a specefic type of data called a String.
+EXAMPLE:
+print "This is a good string"
+print 'You can use single quotes or double quotes for a string'
+
+a string needs to be opened and closed by the same type of quote mark.
+We can combine multiple strings using +, like so:
+print "Hello " + "Oliver_Evans"
+print "This is " + "a good string"
+
+Handling Errors:
+Here are some common errors that we might run into when printing strings (EOL):
+print "Mismatched quotes will cause a SyntaxError'
+print Without quotes will cause a NameError
+No quotes = NameError
+
+Variables:
+Python uses variables to define things that are subject to change.
+greeting_message = "Welcome to Codecademy!"
+current_excercise = 5
+
+In the above example, we defined a variable called greeting_message and set it equal to the string “Welcome to Codecademy!”. 
+It also defined a variable called current_exercise and set it equal to the number 5.
+
+Arithmetic:
+Examples:
+addition = 12381 + 91817
+subtraction = 981 - 312
+multiplication = 38 * 902
+division = 540 / 45
+combinations = 129 * 1345 + 120 / 6 - 12
+remainder = 1398 % 11
+
+Updating Variables:
+Changing the contents of a variable is one of the essential operations.
+fish_in_clarks_pond = 50
+ 
+print "Catching fish"
+ 
+number_of_fish_caught = 10
+fish_in_clarks_pond = fish_in_clarks_pond - number_of_fish_caught
+
+Comments:
+A line of text preceded by a # is called a comment. 
+
+Numbers:
+The simplest kind of number in Python is the integer, which is a whole number with no decimal point:
+int1 = 1
+int2 = 10
+int3 = -5
+
+A number with a decimal point is called a float.
+float1 = 1.0
+float2 = 10.
+float3 = -5.5
+
+You can also define a float using scientific notation, with e indicating the power of 10:
+# this evaluates to 150:
+float4 = 1.5e2 
+
+Two Types of Division:
